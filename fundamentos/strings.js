@@ -19,6 +19,11 @@ console.log(nome);
 
 console.log('Augusta, Maria, Kassia, Pedro, Cristian'.split(','));//array
 
+//Tipos dinamicos
+let message  = 'hello!';
+message = 123
+
+console.log(message);
 
 
 /**
@@ -33,4 +38,7 @@ console.log('Augusta, Maria, Kassia, Pedro, Cristian'.split(','));//array
  * 
  * 3.   Atenção! algumas observações importantes os metodos "replace()" e "toUppercase()"
  *      nao modificam as string originais chamadas, retornam somente novas strings.
+ * 
+ * 4.   l'23/26 Em um tipo de dado uma variavel pode em um momento ser uma string
+ *      outro momento podendo ser um number.
  */
