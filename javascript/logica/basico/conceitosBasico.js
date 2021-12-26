@@ -1,4 +1,5 @@
 /**
+ * Instruções;
  * Escreva um programa que leia as notas das duas avaliações normais
  * e a nota da avaliação optativa.
  * 
@@ -18,30 +19,50 @@
  *      Reprovado
  *      Se média for maior igual a 3 e menor que 6
  *      exame.
- * 
  */
 
 console.log('Inicio da Aplicação')
-const avaliacao1 = 9
-const avaliacao2 = 8
-let avaliacaoOptativa = 2
+//Dados iniciais
+const avaliacao1 = 1
+const avaliacao2 = 6
+let avaliacaoOptativa
 
-console.log(avaliacao1, avaliacao2, avaliacaoOptativa);
+/* console.log(avaliacao1, avaliacao2, avaliacaoOptativa); */
 
 if (avaliacaoOptativa == undefined) {
     avaliacaoOptativa = -1
     console.log(avaliacaoOptativa)
 }
 
+//função para calcular a media
 function calcularMedia(nota1, nota2, notaOptativa) {
     if (nota1 < nota2) {
-        nota1 = notaOptativa
+        nota1 = nota1 < notaOptativa ? notaOptativa : nota1
     } else if (nota2 < nota1) {
-        nota2 = notaOptativa
+        nota2 = nota2 < notaOptativa ? notaOptativa : nota2
     }
-    console.log(nota1, nota2, notaOptativa)
+
+    const media = (nota1 + nota2) / 2
+    return media
 }
-calcularMedia(avaliacao1, avaliacao2, avaliacaoOptativa);
+
+//função para escrever a mensagem de acordo com a instrução
+function escreverMensagemMedia(media) {
+    if (media >= 6) {
+        console.log(`Aprovado: ${media}`)
+    } else if (media < 3) {
+        console.log(`Reprovado: ${media}`)
+    } else {
+        console.log(`Exame: ${media}`)
+    }
+}
+//criando variaveis dos dois alunos
+const mediaAluno1 = calcularMedia(avaliacao1, avaliacao2, avaliacaoOptativa);
+const mediaAluno2 = calcularMedia(8, 7, 4)
+
+//chamando as funções
+escreverMensagemMedia(mediaAluno1);
+escreverMensagemMedia(mediaAluno2);
 
 
 /**
