@@ -31,4 +31,3 @@ if (horas < 10 || horas > 18) {
 }/* primeiro operando = true, false (Avalia operandos da esquerda para a direita.) */
 
 console.log(horas);
-
