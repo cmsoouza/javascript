@@ -9,6 +9,9 @@
 - [Arrays](https://javascript.info/array)
 - [Metodo concat()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
+###<h3> Numbers
+- [Number](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number)
+
 ---
 <p>Cristian Souza <br>
 <p>Desenvolvedor Software
