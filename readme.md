@@ -1,6 +1,7 @@
 <h1> JavaScript
 <h3> Fundamentos Básicos
-###<h3> Básico
+###<h3>Básico
+
 - [Tipos de Dados](https://javascript.info/types)
 - [Tipos de Dados Boolean](https://javascript.info/types#boolean-logical-type)
 - [Operadores Booleanos](https://javascript.info/logical-operators) 
