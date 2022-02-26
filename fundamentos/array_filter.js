@@ -49,7 +49,7 @@ const pessoasCom50 = pessoas.filter(obj => obj.idade > 50);
 console.log(pessoasCom50);
 
 //3) Retorne pessoas cujo nome termina com "a"
-const nomeTerminaComA = pessoas.filter(function(obj) {
+const nomeTerminaComA = pessoas.filter(function (obj) {
     return obj.nome.toLocaleLowerCase().endsWith('a')
 });
 
