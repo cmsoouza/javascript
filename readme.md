@@ -1,17 +1,17 @@
-#<h1>JavaScript
-##<h2> Fundamentos
+# JavaScript
+## Fundamentos
 
-###<h3>Básico
+### Básico
 - [Tipos de Dados](https://javascript.info/types)
 - [Tipos de Dados Boolean](https://javascript.info/types#boolean-logical-type)
 - [Operadores Booleanos](https://javascript.info/logical-operators) 
   
-###<h3> Arrays
+### Arrays
 - [Arrays](https://javascript.info/array)
 - [Metodo concat()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 - [Metodo filter()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
-###<h3> Numbers
+### Numbers
 - [Number](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number)
 - [Math](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
