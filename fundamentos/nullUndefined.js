@@ -13,5 +13,5 @@ console.log(produto.preco);
 produto.preco = 3.50
 console.log(produto);
 
-produto.preco = undefined
+produto.preco = undefined /* evite atriubir undefined */
 console.log(!!produto.preco);
