@@ -27,7 +27,7 @@ console.log(comparacao4);
 //exemplo usando instrução if()
 let horas = 9
 if (horas < 10 || horas > 18) {
-    return horas
+   // return horas
 }/* primeiro operando = true, false (Avalia operandos da esquerda para a direita.) */
 
 console.log(horas);
