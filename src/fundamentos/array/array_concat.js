@@ -9,4 +9,4 @@ let alpha = ['a', 'b', 'c']
 let numeric = [1, 'k', 3]
 let alphanumeric = alpha.concat(numeric);
 
-console.log(alphanumeric);
+console.log(alphanumeric); 
