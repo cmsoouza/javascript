@@ -37,7 +37,8 @@
 </ol>
 
 - [Estanciamento de Objetos](https://pt.stackoverflow.com/questions/192233/diferen%C3%A7a-entre-objeto-e-inst%C3%A2ncia)
-- [Operadores](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_de_atribui%C3%A7%C3%A3o)
+- [Operators](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_de_atribui%C3%A7%C3%A3o)
+- [Destructuring assignment](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 ---
 
